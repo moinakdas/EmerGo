@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/emergobackg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="-1"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:src="@drawable/logop"
+            android:background="#fff"
+            android:textAlignment="textEnd"
+            android:translationY="25dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Name: "
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/spacer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <EditText
+            android:id="@+id/etSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Sex: "
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/spacer8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <EditText
+            android:id="@+id/etDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="DOB: "
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/spacer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <EditText
+            android:id="@+id/etMedical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Medical History: "
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/spacer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <EditText
+            android:id="@+id/etContact1Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Emergency Contact 1 Name: "
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etContact1Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Emergency Contact 1 Number: "
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/spacer6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <EditText
+            android:id="@+id/etContact2Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Emergency Contact 2 Name: "
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/etContact2Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Emergency Contact 2 Number: "
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/spacer9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <EditText
+            android:id="@+id/etContact3Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Emergency Contact 3 Name: "
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/etContact3Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Emergency Contact 3 Number: "
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/spacer0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#8B0000"
+                android:text="Save"
+                android:textColor="@android:color/white" />
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btnLoad"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginLeft="10dp"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:backgroundTint="#8B0000"-->
+            <!--            android:text="Load"-->
+            <!--            android:textColor="@android:color/white" />-->
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/tvLoad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
