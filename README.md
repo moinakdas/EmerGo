@@ -8,7 +8,7 @@ These instructions will help you get a copy of EmerGo's source code up and runni
 
 ### Installing
 
-```git clone https://github.com/[your-username]/EmerGo.git```
+```git clone https://github.com/Sadkoi/EmerGo.git```
 
 2. Open the project in Android Studio.
 
