@@ -37,7 +37,3 @@ EmerGo is released under the [MIT License](https://opensource.org/licenses/MIT).
 ## Acknowledgments
 
 EmerGo was developed during the 48-hour 2022 MLH hackathon at Stony Brook University. Special thanks to all who participated and made this project possible.
-
-
-
-Regenerate response
